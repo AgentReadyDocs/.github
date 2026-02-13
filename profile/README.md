@@ -6,15 +6,14 @@ Agent-ready means explicit enough for reliable implementation by LLM agents with
 
 ## Start Here
 
-- `spec-kit`: https://github.com/AgentReadyDocs/spec-kit
-- `skills`: https://github.com/AgentReadyDocs/skills
+- `spec-kit` (templates, rubrics, and skills): https://github.com/AgentReadyDocs/spec-kit
 
 ## How To Use This Org
 
 1. Start from `spec-kit` and pick the closest template for your use case.
 2. Fill the template with explicit entities, constraints, invariants, and acceptance tests.
 3. Use rubrics and linting rules (where provided) to catch ambiguity, missing constraints, and unresolved unknowns.
-4. Use skills from `skills` (Claude Code, Codex, etc.) to co-author and iterate.
+4. Use skills from `spec-kit/skills/` (Claude Code, Codex, etc.) to co-author and iterate.
 5. Gate changes with reviewer feedback and pass/fail criteria before implementation.
 
 ## Why
@@ -62,8 +61,7 @@ All content here is public and intended for open collaboration.
 
 - `spec-kit`: canonical templates, rubric, and validation/lint rules
   https://github.com/AgentReadyDocs/spec-kit
-- `skills`: Claude Code, Codex, and other agent-platform co-authoring skills
-  https://github.com/AgentReadyDocs/skills
+  (includes `skills/` for co-authoring and review workflows)
 
 ## Intended Outcomes
 
