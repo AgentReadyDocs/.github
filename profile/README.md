@@ -42,8 +42,14 @@ All content here is public and intended for open collaboration.
 - Schema first: define entities, fields, constraints, and interfaces explicitly.
 - Unknowns are first-class: mark `[OPEN]`, `[ASSUMPTION]`, and decision owners.
 - Invariants over narrative: state what must/never happen.
-- Deterministic workflows: model state transitions, errors, and side effects.
+- Reduce variance in behavioral outcomes: constrain state transitions, errors, and side effects so independent implementations converge on the same externally observable behavior.
 - Acceptance criteria as tests: make “done” machine-checkable.
+
+## Non-goals
+
+- Identical code or identical artifacts across implementations.
+- “Guaranteed one-shot” implementation success claims.
+- Any evaluation infrastructure beyond generating excellent agent-ready documentation.
 
 ## Recommended Authoring Flow
 
