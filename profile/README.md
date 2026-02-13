@@ -69,7 +69,7 @@ All content here is public and intended for open collaboration.
 
 - Reduce ambiguity before implementation starts.
 - Make unknowns explicit instead of silently assumed.
-- Raise one-shot implementation success for LLM-assisted delivery.
+- Increase first-pass implementation success rate for LLM-assisted delivery.
 - Keep review quality consistent via shared rubrics and gates.
 
 ## Contributing
