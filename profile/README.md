@@ -26,7 +26,7 @@ This org focuses on specification artifacts that are explicit enough for reliabl
 - Specification templates (use cases, NFRs, ADRs, and related formats)
 - Shared quality rubrics with pass/fail gates
 - Co-authoring skills for structured elicitation and iterative refinement
-  (including Claude Code and Codex workflows)
+  (including Claude Code and Codex workflows, where provided)
 - Validation and linting assets where useful
 
 ## Public Content Policy
@@ -72,4 +72,4 @@ All content here is public and intended for open collaboration.
 
 ## Contributing
 
-Contributions are welcome: new templates, rubric improvements, validation rules, and skills that improve clarity and reliability for agent execution.
+Contributions are welcome: new templates, rubric improvements, validation rules, and skills in `spec-kit/skills/` that improve clarity and reliability for agent execution.
